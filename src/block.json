@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "top-stories/top-stories",
+	"version": "1.0.0",
+	"title": "Top Stories",
+	"category": "widgets",
+	"icon": "editor-ul",
+	"description": "Pull Top Stories from Specific Category.",
+	"attributes": {
+		"numberOfStories": {
+			"type": "number",
+			"default": 3
+		},
+		"columns": {
+			"type": "number",
+			"default": 1
+		},
+		"displayExcerpt": {
+			"type": "boolean",
+			"default": true
+		},
+		"taxonomy": {
+			"type": "number",
+			"default": 0
+		},
+		"posts": {
+			"type": "object"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "top-stories",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
