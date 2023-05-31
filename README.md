@@ -3,9 +3,9 @@
 Fetch posts dynamically as top stories as per the selection from <SelectControl /> dropdown.
 
 #### Linting
-[x] Checked against `JS Lint`
-[x] Checked againts `CSS Lint`
-[x] Checked against `format`
+- [x] Checked against `JS Lint`
+- [x] Checked againts `CSS Lint`
+- [x] Checked against `format`
 
 #### Block Screenshot
 <img src="https://i.ibb.co/zrBQwZq/top-stories-screenshot.png" />
